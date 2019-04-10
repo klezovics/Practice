@@ -1,10 +1,9 @@
-package com.klezovich.simples;
+package com.klezovich.simples.switches;
 
-import org.junit.Assert;
+import com.klezovich.simples.switches.SimpleSwitch;
+import com.klezovich.simples.switches.Switch;
 import org.junit.Before;
 import org.junit.Test;
-
-import javax.validation.constraints.AssertFalse;
 
 import static org.junit.Assert.*;
 
@@ -15,7 +14,7 @@ public class SwitchTest {
     @Before
     public void setup(){
 
-        sw = new Switch();
+        sw = new SimpleSwitch();
     }
 
     @Test
